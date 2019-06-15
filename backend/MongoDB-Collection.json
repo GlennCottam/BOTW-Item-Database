@@ -1,0 +1,55 @@
+{"_id":{"$oid":"5d040ba56cb7b121dc31694a"},"village":"Hateno","store":"General Store","item":"Bomb Arrow","price":{"$numberInt":"50"}}
+{"_id":{"$oid":"5d041616c1dc1b21dc21306c"},"village":"Hateno","store":"General Store","item":"Bomb Arrow x10","price":{"$numberInt":"350"}}
+{"_id":{"$oid":"5d043a426a31b80b5727abdc"},"village":"Hateno","store":"General Store","item":"Fresh Milk","price":"12"}
+{"_id":{"$oid":"5d043a746a31b80b5727abdd"},"village":"Hateno","store":"General Store","item":"Endura Shroom","price":"24"}
+{"_id":{"$oid":"5d043a896a31b80b5727abde"},"village":"Hateno","store":"General Store","item":"Bird Egg","price":"12"}
+{"_id":{"$oid":"5d043ae86a31b80b5727abdf"},"village":"Hateno","store":"Armor Shop","item":"Warm Doublet","price":"80"}
+{"_id":{"$oid":"5d043b046a31b80b5727abe0"},"village":"Hateno","store":"Armor Shop","item":"Soldier's Armor","price":"250"}
+{"_id":{"$oid":"5d043b1b6a31b80b5727abe1"},"village":"Hateno","store":"Armor Shop","item":"Soldier's Helm","price":"180"}
+{"_id":{"$oid":"5d043b3c6a31b80b5727abe2"},"village":"Hateno","store":"Armor Shop","item":"Hylian Tunic","price":"120"}
+{"_id":{"$oid":"5d043b766a31b80b5727abe3"},"village":"Hateno","store":"Armor Shop","item":"Hylian Trousers","price":"90"}
+{"_id":{"$oid":"5d043b966a31b80b5727abe4"},"village":"Hateno","store":"Armor Shop","item":"Hylian Hood","price":"60"}
+{"_id":{"$oid":"5d043c2d6a31b80b5727abe5"},"village":"Kakariko Village","store":"Armor Shop","item":"Hylian Hood","price":"60"}
+{"_id":{"$oid":"5d043c466a31b80b5727abe6"},"village":"Kakariko Village","store":"Armor Shop","item":"Hylian Tunic","price":"120"}
+{"_id":{"$oid":"5d043c8c6a31b80b5727abe7"},"village":"Kakariko Village","store":"Armor Shop","item":"Hylian Trousers","price":"90"}
+{"_id":{"$oid":"5d043cb26a31b80b5727abe8"},"village":"Kakariko Village","store":"Armor Shop","item":"Stealth Tights","price":"600"}
+{"_id":{"$oid":"5d043cca6a31b80b5727abe9"},"village":"Kakariko Village","store":"Armor Shop","item":"Stealth Chest Guard","price":"700"}
+{"_id":{"$oid":"5d043ce06a31b80b5727abea"},"village":"Kakariko Village","store":"Armor Shop","item":"Stealth Mask","price":"500"}
+{"_id":{"$oid":"5d043d1b6a31b80b5727abeb"},"village":"Kakariko Village","store":"General Store","item":"Swift Carrot","price":"16"}
+{"_id":{"$oid":"5d043d2d6a31b80b5727abec"},"village":"Kakariko Village","store":"General Store","item":"Bird Egg","price":"12"}
+{"_id":{"$oid":"5d043d486a31b80b5727abed"},"village":"Kakariko Village","store":"General Store","item":"Goat Butter","price":"12"}
+{"_id":{"$oid":"5d043d5e6a31b80b5727abee"},"village":"Kakariko Village","store":"General Store","item":"Bokoblin Guts","price":"80"}
+{"_id":{"$oid":"5d043d856a31b80b5727abef"},"village":"Kakariko Village","store":"General Store","item":"Fire Arrow","price":"20"}
+{"_id":{"$oid":"5d043db06a31b80b5727abf0"},"village":"Kakariko Village","store":"General Store","item":"Fire Arrow x5","price":"80"}
+{"_id":{"$oid":"5d043dde6a31b80b5727abf1"},"village":"Kakariko Village","store":"General Store","item":"Arrow","price":"5"}
+{"_id":{"$oid":"5d043df16a31b80b5727abf2"},"village":"Kakariko Village","store":"General Store","item":"Arrow x5","price":"20"}
+{"_id":{"$oid":"5d0446d767fb560c896ab095"},"village":"Gerudo Town","store":"General Store","item":"Hearty Durian","price":"60"}
+{"_id":{"$oid":"5d0446f367fb560c896ab096"},"village":"Gerudo Town","store":"General Store","item":"Hydromelon","price":"16"}
+{"_id":{"$oid":"5d04470667fb560c896ab097"},"village":"Gerudo Town","store":"General Store","item":"Voltfruit","price":"16"}
+{"_id":{"$oid":"5d04473767fb560c896ab098"},"village":"Gerudo Town","store":"Jewelry Shop","item":"Diamond Circlet","price":"1500 + 3 Diamond"}
+{"_id":{"$oid":"5d04475367fb560c896ab099"},"village":"Gerudo Town","store":"Jewelry Shop","item":"Ruby Circlet","price":"500 + 3 Ruby"}
+{"_id":{"$oid":"5d04476b67fb560c896ab09a"},"village":"Gerudo Town","store":"Jewelry Shop","item":"Sapphire Circlet","price":"800 + 3 Sapphire"}
+{"_id":{"$oid":"5d04479367fb560c896ab09b"},"village":"Gerudo Town","store":"Jewelry Shop","item":"Topaz Earrings","price":"500 + 3 Topaz"}
+{"_id":{"$oid":"5d0447b767fb560c896ab09c"},"village":"Gerudo Town","store":"Jewelry Shop","item":"Opal Earrings","price":"200 + 8 Opals"}
+{"_id":{"$oid":"5d0447d067fb560c896ab09d"},"village":"Gerudo Town","store":"Jewelry Shop","item":"Amber Earrings","price":"100 + 10 Amber"}
+{"_id":{"$oid":"5d044bcfb10f9b0eff3f3ab6"},"village":"Gerudo Town","store":"General Store","item":"Seared Gourmet Steak","price":"140"}
+{"_id":{"$oid":"5d044c05b10f9b0eff3f3ab7"},"village":"Gerudo Town","store":"General Store","item":"Seared Prime Steak","price":"58"}
+{"_id":{"$oid":"5d044c32b10f9b0eff3f3ab8"},"village":"Gerudo Town","store":"General Store","item":"Seared Steak","price":"30"}
+{"_id":{"$oid":"5d0462f5b10f9b0eff3f3ab9"},"village":"Gerudo Town","store":"General Store","item":"Arrow x5","price":"20"}
+{"_id":{"$oid":"5d046318b10f9b0eff3f3aba"},"village":"Gerudo Town","store":"General Store","item":"Fire Arrow x10","price":"140"}
+{"_id":{"$oid":"5d046332b10f9b0eff3f3abb"},"village":"Gerudo Town","store":"General Store","item":"Ice Arrow x10","price":"140"}
+{"_id":{"$oid":"5d04634ab10f9b0eff3f3abc"},"village":"Gerudo Town","store":"General Store","item":"Shock Arrow x10","price":"140"}
+{"_id":{"$oid":"5d046367b10f9b0eff3f3abd"},"village":"Gerudo Town","store":"General Store","item":"Bomb Arrow x20","price":"600"}
+{"_id":{"$oid":"5d046397b10f9b0eff3f3abe"},"village":"Gerudo Town","store":"General Store","item":"Rock Salt","price":"12"}
+{"_id":{"$oid":"5d0463b7b10f9b0eff3f3abf"},"village":"Gerudo Town","store":"General Store","item":"Tabantha Wheat","price":"12"}
+{"_id":{"$oid":"5d0463d6b10f9b0eff3f3ac0"},"village":"Gerudo Town","store":"General Store","item":"Hylian Rice","price":"12"}
+{"_id":{"$oid":"5d0463fcb10f9b0eff3f3ac1"},"village":"Gerudo Town","store":"General Store","item":"Chillshroom","price":"16"}
+{"_id":{"$oid":"5d046413b10f9b0eff3f3ac2"},"village":"Gerudo Town","store":"General Store","item":"Zapshroom","price":"16"}
+{"_id":{"$oid":"5d04642ab10f9b0eff3f3ac3"},"village":"Gerudo Town","store":"General Store","item":"Sunshroom","price":"16"}
+{"_id":{"$oid":"5d04643db10f9b0eff3f3ac4"},"village":"Gerudo Town","store":"General Store","item":"Razorshroom","price":"20"}
+{"_id":{"$oid":"5d046451b10f9b0eff3f3ac5"},"village":"Gerudo Town","store":"General Store","item":"Ironshroom","price":"20"}
+{"_id":{"$oid":"5d04648db10f9b0eff3f3ac6"},"village":"Gerudo Town","store":"Armor Shop","item":"Gerudo Sirwal","price":"180"}
+{"_id":{"$oid":"5d0464a8b10f9b0eff3f3ac7"},"village":"Gerudo Town","store":"Armor Shop","item":"Gerudo Top","price":"180"}
+{"_id":{"$oid":"5d0464c6b10f9b0eff3f3ac8"},"village":"Gerudo Town","store":"Armor Shop","item":"Gerudo Veil","price":"180"}
+{"_id":{"$oid":"5d04f9ec6e5c3118fb5769dc"},"village":"Korok Forest","store":"General Store","item":"Hearty Radish","price":"32"}
+{"_id":{"$oid":"5d04fa396e5c3118fb5769dd"},"village":"Korok Forest","store":"General Store","item":"Apple","price":"12"}
