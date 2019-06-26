@@ -2,9 +2,10 @@
     <head>
         <title>BOTW Database</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<!--BootStrap-->
+        <!--BootStrap-->
+        <link rel="stylesheet" href="CSS/bootstrap.min.css">
 
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -20,6 +21,10 @@
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
         <script src="JS/table.js"></script>
         <script src="JS/angular.js"></script>
+
+        <!--COOKIES BABY WOOO-->
+        <script src="JS/js.cookie-2.2.0.min.js"></script>
+        <script src="JS/cookies.js"></script>
 
          <!--Data Tables-->
          <!-- <link rel="stylesheet" href="http://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css"> -->
@@ -41,6 +46,9 @@
                             <option value="Kakariko Village">Kakariko Village</option>
                             <option value="Gerudo Town">Gerudo Town</option>
                             <option value="Korok Forest">Korok Forest</option>
+			                <option value="Zora's Domain">Zora's Domain</option>
+			                <option value="Rito Stable">Rito Stable</option>
+			                <option value="Akkala Ancient Tech Lab">Akkala Ancient Tech Lab</option>
                         </select>
                     </div>
 
@@ -67,16 +75,46 @@
             </div>
         </div>
         
-        <header class="container-fluid bg-dark text-light">
-            <h1 class="text-center">Breath of the Wild Item Database</h1>
+        <header class="sticky-top container-fluid bg-dark text-light">
+            <div class="row">
+                <div class="col-md-5"><h4 class="text-left">Breath of the Wild Item Database</h4></div>
+                <div class="col-md-7">
+                        <div class="input-group display">
+                            <input class="form-control border border-primary bg-dark text-light" type="text" placeholder="Search" id="search" onkeyup="searchTable()">
+                        <div class="input-group-append">
+                            <span onclick="clearTable()" class="input-group-text bg-danger border-danger btn btn-danger text-light">Clear</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            
         </header>
         <div class="container-fluid bg-dark text-light rounded-top">
             <!-- Place all the database shit here -->
-            <div class="input-group display">
-                <input class="form-control border border-primary bg-dark text-light" type="text" placeholder="Search" id="search" onkeyup="searchTable()">
-                <div class="input-group-append">
-                    <span onclick="clearTable()" class="input-group-text bg-danger border-danger btn btn-danger text-light">Clear</span>
-                </div>
+            <table class="table table-dark table-hover table-bordered display table-responsive">
+                <thead class="bg-primary text-light">
+                    <tr class="text-center">
+                        <th scope="col">Item</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">Store</th>
+                        <th scope="col">Village</th>
+                    </tr>
+                </thead>
+                <tbody id="content">
+                    <tr ng-repeat="item in ItemList">
+                        <td>{{item.item}}</td>
+                        <td><img class="align-baseline" id="rupee" src="images/rupee.png">{{item.price}}</td>
+                        <td>{{item.store}}</td>
+                        <td>{{item.village}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <footer>
+            <div class="container text-right footer fixed-bottom input-group">
+                <a class="form-control btn btn-primary" href="#">Top</a>
                 <div class="input-group-append">
                     <span onclick="showEntry()" class="input-group-text bg-success border-success btn btn-success text-light">Add Entry</span>
                 </div>
@@ -84,24 +122,6 @@
                     <span onclick="refresh()" class="input-group-text bg-warning border-warning btn btn-warning text-dark">Refresh</span>
                 </div>
             </div>
-            <table id="datatable" class="table table-dark table-hover table-bordered table-striped display">
-                <thead class="bg-primary text-light">
-                    <tr class="text-center">
-                        <th scope="col"><h4>Item</h4></th>
-                        <th scope="col"><h4>Price</h4></th>
-                        <th scope="col"><h4>Store</h4></th>
-                        <th scope="col"><h4>Village</h4></th>
-                    </tr>
-                </thead>
-                <tbody id="content">
-                    <tr ng-repeat="item in ItemList">
-                        <td>{{item.item}}</td>
-                        <td><img id="rupee" src="images/rupee.png">{{item.price}}</td>
-                        <td>{{item.store}}</td>
-                        <td>{{item.village}}</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+        </footer>
     </body>
 </html>

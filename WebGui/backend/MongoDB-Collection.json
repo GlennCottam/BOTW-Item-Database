@@ -53,3 +53,40 @@
 {"_id":{"$oid":"5d0464c6b10f9b0eff3f3ac8"},"village":"Gerudo Town","store":"Armor Shop","item":"Gerudo Veil","price":"180"}
 {"_id":{"$oid":"5d04f9ec6e5c3118fb5769dc"},"village":"Korok Forest","store":"General Store","item":"Hearty Radish","price":"32"}
 {"_id":{"$oid":"5d04fa396e5c3118fb5769dd"},"village":"Korok Forest","store":"General Store","item":"Apple","price":"12"}
+{"_id":{"$oid":"5d0507606e5c3118fb5769de"},"village":"Korok Forest","store":"General Store","item":"Hylian Rice","price":"12"}
+{"_id":{"$oid":"5d05077a6e5c3118fb5769df"},"village":"Korok Forest","store":"General Store","item":"Cane Sugar","price":"12"}
+{"_id":{"$oid":"5d0507896e5c3118fb5769e0"},"village":"Korok Forest","store":"General Store","item":"Arrow x5","price":"20"}
+{"_id":{"$oid":"5d05079d6e5c3118fb5769e1"},"village":"Korok Forest","store":"General Store","item":"Shock Arrow x5","price":"80"}
+{"_id":{"$oid":"5d0507ba6e5c3118fb5769e2"},"village":"Korok Forest","store":"General Store","item":"Ironshroom","price":"20"}
+{"_id":{"$oid":"5d0507cc6e5c3118fb5769e3"},"village":"Korok Forest","store":"General Store","item":"Rushshroom","price":"12"}
+{"_id":{"$oid":"5d0507df6e5c3118fb5769e4"},"village":"Korok Forest","store":"General Store","item":"Stamella Shroom","price":"20"}
+{"_id":{"$oid":"5d0507f46e5c3118fb5769e5"},"village":"Korok Forest","store":"General Store","item":"Hearty Truffle","price":"24"}
+{"_id":{"$oid":"5d0508046e5c3118fb5769e6"},"village":"Korok Forest","store":"General Store","item":"Razorshroom","price":"20"}
+{"_id":{"$oid":"5d0ba1aa4b7f111a9c4bc9af"},"village":"Zora's Domain","store":"General Store","item":"Hylian Rice","price":"12"}
+{"_id":{"$oid":"5d0ba1c24b7f111a9c4bc9b0"},"village":"Zora's Domain","store":"General Store","item":"Chillfin Trout","price":"24"}
+{"_id":{"$oid":"5d0ba1d74b7f111a9c4bc9b1"},"village":"Zora's Domain","store":"General Store","item":"Sizzlefin Trout","price":"24"}
+{"_id":{"$oid":"5d0ba1f24b7f111a9c4bc9b2"},"village":"Zora's Domain","store":"General Store","item":"Arrow x5","price":"20"}
+{"_id":{"$oid":"5d0ba2054b7f111a9c4bc9b3"},"village":"Zora's Domain","store":"General Store","item":"Ice Arrow x5","price":"80"}
+{"_id":{"$oid":"5d0ba2154b7f111a9c4bc9b4"},"village":"Zora's Domain","store":"General Store","item":"Ice Arrow","price":"20"}
+{"_id":{"$oid":"5d0ba2254b7f111a9c4bc9b5"},"village":"Zora's Domain","store":"General Store","item":"Rock Salt","price":"12"}
+{"_id":{"$oid":"5d0ba2364b7f111a9c4bc9b6"},"village":"Zora's Domain","store":"General Store","item":"Swift Violet","price":"40"}
+{"_id":{"$oid":"5d0befb6a3170a130fcb58b6"},"village":"Rito Stable","store":"Armor Shop","item":"Snowquill Headdress","price":"1000"}
+{"_id":{"$oid":"5d0befcda3170a130fcb58b7"},"village":"Rito Stable","store":"Armor Shop","item":"Snowquill Tunic","price":"600"}
+{"_id":{"$oid":"5d0befe4a3170a130fcb58b8"},"village":"Rito Stable","store":"Armor Shop","item":"Snowquill Trousers","price":"550"}
+{"_id":{"$oid":"5d0bf057a3170a130fcb58b9"},"village":"Rito Stable","store":"General Store","item":"Tabantha Wheat","price":"12"}
+{"_id":{"$oid":"5d0bf070a3170a130fcb58ba"},"village":"Rito Stable","store":"General Store","item":"Cane Sugar","price":"12"}
+{"_id":{"$oid":"5d0bf07fa3170a130fcb58bb"},"village":"Rito Stable","store":"General Store","item":"Goat Butter","price":"12"}
+{"_id":{"$oid":"5d0bf094a3170a130fcb58bc"},"village":"Rito Stable","store":"General Store","item":"Bomb Arrow x5","price":"200"}
+{"_id":{"$oid":"5d0bf0a5a3170a130fcb58bd"},"village":"Rito Stable","store":"General Store","item":"Arrow x5","price":"20"}
+{"_id":{"$oid":"5d0bf0b7a3170a130fcb58be"},"village":"Rito Stable","store":"General Store","item":"Sunshroom","price":"16"}
+{"_id":{"$oid":"5d0bf18ba3170a130fcb58bf"},"village":"Akkala Ancient Tech Lab","store":"General Store","item":"Ancient Arrow","price":"90 + 2x Ancient Screw + 1x Ancient Shaft + 1x Arrow"}
+{"_id":{"$oid":"5d0bf19fa3170a130fcb58c0"},"village":"Akkala Ancient Tech Lab","store":"General Store","item":"Ancient Arrow x3","price":"250 + 6x Ancient Screw + 3x Ancient Shaft + 3x Arrow"}
+{"_id":{"$oid":"5d0bf1b8a3170a130fcb58c1"},"village":"Akkala Ancient Tech Lab","store":"General Store","item":"Ancient Arrow x5","price":"400 + 5x Ancient Spring + 5x Ancient Shaft + 5x Arrow"}
+{"_id":{"$oid":"5d0bf1e9a3170a130fcb58c2"},"village":"Akkala Ancient Tech Lab","store":"General Store","item":"Ancient Short Sword","price":"1000 + 15x Ancient Spring + 5x Ancient Shaft + 2x Ancient Core"}
+{"_id":{"$oid":"5d0bf323a3170a130fcb58c3"},"village":"Akkala Ancient Tech Lab","store":"General Store","item":"Ancient Shield","price":"1000 + 10x Ancient Gear + 15x Ancient Spring + 1x Giant Ancient Core"}
+{"_id":{"$oid":"5d0bf36ba3170a130fcb58c4"},"village":"Akkala Ancient Tech Lab","store":"General Store","item":"Ancient Bladesaw","price":"1000 + 15x Ancient Screw + 5x Ancient Shaft + 2x Ancient Core"}
+{"_id":{"$oid":"5d0bf390a3170a130fcb58c5"},"village":"Akkala Ancient Tech Lab","store":"General Store","item":"Ancient Spear","price":"1000 + 15x Ancient Gear + 5x Ancient Shaft + 2x Ancient Core"}
+{"_id":{"$oid":"5d0bf3bfa3170a130fcb58c6"},"village":"Akkala Ancient Tech Lab","store":"General Store","item":"Ancient Bow","price":"1000 + 10x Ancient Gear + 15x Ancient Spring + 1x Giant Ancient Core"}
+{"_id":{"$oid":"5d0bf3e6a3170a130fcb58c7"},"village":"Akkala Ancient Tech Lab","store":"General Store","item":"Ancient Helm","price":"2000 + 20x Ancient Gear + 5x Ancient Shaft + 3x Ancient Core"}
+{"_id":{"$oid":"5d0bf777a3170a130fcb58c8"},"village":"Akkala Ancient Tech Lab","store":"General Store","item":"Ancient Cuirass","price":"2000 + 20x Ancient Gear + 5x Ancient Screw + 3x Ancient Core"}
+{"_id":{"$oid":"5d0bf7a4a3170a130fcb58c9"},"village":"Akkala Ancient Tech Lab","store":"General Store","item":"Ancient Greaves","price":"2000 + 20x Ancient Gear + 5x Ancient Spring + 3x Ancient Core"}
