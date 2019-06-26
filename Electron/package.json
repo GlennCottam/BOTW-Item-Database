@@ -1,0 +1,18 @@
+{
+  "name": "botw-items",
+  "version": "1.0.0",
+  "description": "Desktop app with a list of items from the video game Zelda Breath of the Wild.",
+  "main": "main.js",
+  "dependencies": {
+    "app": "^0.1.0",
+    "browser-window": "^0.4.0"
+  },
+  "devDependencies": {
+    "electron": "^5.0.5"
+  },
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Glenn Cottam",
+  "license": ""
+}
