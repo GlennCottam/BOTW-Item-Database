@@ -15,6 +15,8 @@ I am using a simple node.js app to retrieve a JSON response for the database.
 + Added mongoDB database collection
 + Added javascript search
 + Added readme
++ Started work on Android App
++ Started work on Electron Desktop App
 ```
 
 # Future?
